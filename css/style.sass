@@ -1,0 +1,297 @@
+$main_bg: #fafbfb
+
+body
+	margin: 0
+	padding: 0
+	font-size: 100%
+	background-color: $main_bg
+
+nav.navbar-fixed-top
+	border-top: 3px solid #cf0623
+	height: 20vh
+	background-color: white
+	.row
+		padding: 5px 15% 5px 15%
+	.upnav
+		border-bottom: 1px solid #ccc
+	.col-md-3, .col-md-6, .col-md-12
+		padding: 0
+		
+	.navigat
+		position: absolute
+		left: -5%
+		padding: 0
+		margin-top: 7%
+		li
+			display: inline
+			text-decoration: none
+			input
+				width: 20px
+				background: transparent url(../img/icon.png) no-repeat -2px -338px
+				border: none
+				cursor: pointer
+			a
+				color: black
+				text-decoration: none
+				font-size: 12px
+				text-transform: uppercase
+				font-weight: 600
+		li:not(:first-child)
+			margin-left: 2px	
+
+section#slider
+	position: relative
+	top: 20vh
+	.container-fluid
+		padding: 0
+		
+section#predlog
+	position: relative
+	top: 25vh
+	width: 70%
+	margin: 0 auto
+	.col-md-4
+		.block
+			display: table
+			border: 3px solid #ccc
+			width: 90%
+			margin: 0 auto
+			border-radius: 2px
+			height: 10vh
+
+			.kart
+				display: table-cell
+				padding-left: 10%
+				width: 50px
+				vertical-align: middle
+				img
+					width: 50px
+					height: 50px
+			.text
+				display: table-cell
+				font-size: 18px
+				text-transform: uppercase
+				text-align: left
+				vertical-align: middle
+				p
+					padding-left: 5%
+					
+		.act
+			border-color: black
+			p
+				color: red		
+		.dost
+			border-color: green
+			p
+				color: green
+				line-height: 18px
+				span
+					color: black
+		.loj
+			border-color: red
+			p
+				color: red
+				line-height: 18px
+				span
+					color: black
+section#price
+	position: relative
+	top: 30vh
+	width: 70%
+	margin: 0 auto
+	img
+		margin: 0 auto
+	.slick-prev:before, .slick-next:before
+		color: black
+	.nav-pills
+		li
+			width: 130px
+			text-align: center
+		a
+			background-color: #ebf0f1
+			color: black
+		.active
+			a
+				background-color: #ea1621
+	.tab-content
+		p.descript
+			font-size: 14px
+			font-weight: 700
+		p.price
+			color: #ea1621
+section#news
+	position: relative
+	width: 70%
+	top: 35vh
+	margin: 0 auto
+	h2
+		margin-bottom: 5%
+		text-transform: uppercase
+		font-size: 24px
+	.news
+
+		img
+			float: left
+			margin-right: 5%		
+		.slick-prev:before, .slick-next:before
+			color: black	
+		.slick-prev
+			left: 90%
+			top: -20%
+		.slick-next
+			right: 0
+			top: -20%	
+	.prog
+		.slick-prev:before, .slick-next:before
+			color: black			
+		.slick-prev
+			left: 90%
+			top: -30%
+		.slick-next
+			right: 0
+			top: -30%
+		img
+			width: 100px
+			height: 100px
+			border-radius: 90%
+			float: left
+			margin-right: 5%
+section#best
+	position: relative
+	width: 70%
+	margin: 0 auto
+	top: 35vh
+	img
+		margin: 0 auto
+	.slick-prev:before, .slick-next:before
+		color: black	
+	.slick-prev
+		left: 95%
+		top: -20%
+	.slick-next
+		right: 0
+		top: -20%	
+	h2
+		margin-bottom: 5%
+		text-transform: uppercase
+		font-size: 24px
+	p.descript
+		font-size: 14px
+		font-weight: 700
+	p.price
+		color: #ea1621
+section#newproduct
+	position: relative
+	width: 70%
+	margin: 0 auto
+	top: 40vh
+	.newprod
+		width: 100%
+		height: 200px
+		background: #e3e3e3 url(../img/somnew.jpg) no-repeat right
+		background-size: contain
+		border-radius: 5px
+		padding: 15% 0 5% 5%
+		h2
+			color: white
+			text-transform: uppercase
+		.btn-danger
+			height: 40%
+			width: 30%
+			background-color: #ec1333
+			text-transform: uppercase
+			background-image: none
+		.btn-primary
+			height: 40%
+			width: 30%
+			background-color: #23475f
+			text-transform: uppercase
+			background-image: none	
+section#brand
+	position: relative
+	width: 70%
+	margin: 0 auto
+	top: 45vh
+	img
+		margin: 0 auto			
+	h2
+		margin-bottom: 5%
+		text-transform: uppercase
+		font-size: 24px	
+	.slick-prev:before, .slick-next:before
+		color: black	
+	.slick-prev
+		left: 95%
+		top: -90%
+	.slick-next
+		right: 0
+		top: -90%	
+footer
+	position: relative
+	width: 100%
+	background-color: black
+	top: 50vh
+
+	.row
+		margin-left: 0.00001em
+		margin-right: 0.00001em
+		padding-left: 15%
+		padding-right: 15%
+		padding-top: 2%
+		padding-bottom: 2%
+	a
+		color: white
+		text-decoration: none
+		font-size: 12px
+	a:hover
+		text-decoration: none
+		color: #ea1621
+		
+	address
+		color: white	
+	ul
+		padding: 0
+
+		li
+			list-style-type: none
+			border-bottom: 1px solid #1c1c1c
+			height: 4vh
+			padding-top: 5%
+			width: 100%
+			span
+				float: right
+				color: white
+	.sots
+		display: table
+		div
+			display: table-cell
+			width: 30px
+			height: 30px
+			border-radius: 3px
+		.f
+			background: #23599b url(../img/icons.png) no-repeat -46px -8px
+		.tw
+			background: #00ace4 url(../img/icons.png) no-repeat -84px -8px
+		.v
+			background: #005e8e url(../img/icons.png) no-repeat -7px -8px	
+		.rob
+			background: #ff457a url(../img/icons.png) no-repeat -161px -85px
+		.g
+			background: #ff3c22 url(../img/icons.png) no-repeat -122px -8px		
+	.copyr
+		
+		display: table
+		width: 100%
+		height: 5vh
+		background-color: #141414
+		padding-left: 15%
+
+		top: 0
+		p
+			color: #525757
+			font-size: 12px
+			display: table-cell
+			vertical-align: middle
+
+			span
+				color: white
